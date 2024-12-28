@@ -1,0 +1,60 @@
+header
+{
+    background-color: brown;
+    height:80px ;
+}
+body{
+    margin: 0px;
+    color: white;
+}
+main
+{
+    background-color: bisque;
+    height: 300px;
+    color: black;
+}
+footer
+{
+    background-color:black;
+    height: 40px;
+}
+header h3
+{
+    margin: 0px;
+}
+.header-row1
+{
+    background-color: green;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
+.header-row2
+{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+}
+.image
+{
+    width: 35px;
+}
+nav ul
+{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover
+{
+    color: rgb(226, 193, 131);
+}
+
